@@ -8,7 +8,6 @@ import com.delgadillo.hello.model.Greeting; //importamos el modelo
 
 @RestController //anotacion para un controlador rest
 //devuelve JSON o XML
-
 public class GreetingController {
 	
 	private static final String template = "Hello, %s!";
